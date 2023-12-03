@@ -34,83 +34,111 @@ Array Co. utilized the Python Flask framework to power the backend server and ha
 <br>
 
 
-# File Tree Structure
+# File Tree Structure 📁
+### DASH Root Directory
 ``` bash
-├───android
-│   ├───app
-│   │   └───src
-│   │       ├───debug
-│   │       ├───main
-│   │       │   ├───kotlin
-│   │       │   │   └───com
-│   │       │   │       └───example
-│   │       │   │           └───dash
-│   │       │   └───res
-│   │       │       ├───drawable
-│   │       │       ├───drawable-v21
-│   │       │       ├───mipmap-hdpi
-│   │       │       ├───mipmap-mdpi
-│   │       │       ├───mipmap-xhdpi
-│   │       │       ├───mipmap-xxhdpi
-│   │       │       ├───mipmap-xxxhdpi
-│   │       │       ├───values
-│   │       │       └───values-night
-│   │       └───profile
-│   └───gradle
-│       └───wrapper
-├───assets
-│   ├───fonts
-│   │   └───roboto
-│   ├───icons
-│   └───images
-├───ios
-│   ├───Flutter
-│   ├───Runner
-│   │   ├───Assets.xcassets
-│   │   │   ├───AppIcon.appiconset
-│   │   │   └───LaunchImage.imageset
-│   │   └───Base.lproj
-│   ├───Runner.xcodeproj
-│   │   ├───project.xcworkspace
-│   │   │   └───xcshareddata
-│   │   └───xcshareddata
-│   │       └───xcschemes
-│   └───Runner.xcworkspace
-│       └───xcshareddata
-├───lib
-│   ├───components
-│   ├───controllers
-│   ├───models
-│   ├───providers
-│   ├───repositories
-│   │   └───exceptions
-│   ├───screens
-│   └───widgets
-├───linux
-│   └───flutter
-├───macos
-│   ├───Flutter
-│   ├───Runner
-│   │   ├───Assets.xcassets
-│   │   │   └───AppIcon.appiconset
-│   │   ├───Base.lproj
-│   │   └───Configs
-│   ├───Runner.xcodeproj
-│   │   ├───project.xcworkspace
-│   │   │   └───xcshareddata
-│   │   └───xcshareddata
-│   │       └───xcschemes
-│   └───Runner.xcworkspace
-│       └───xcshareddata
-├───README
-│   └───assets
-├───web
-│   └───icons
-└───windows
-    ├───flutter
-    └───runner
-        └───resources
-
+.
+├── Flask-server-backend
+├── Flutter-mobileapp-frontend
+├── README/
+│   └── assets/
+│       └── arrayco.jpg
+└── README.md
+```
+### Flask-server-backend Subdirectory
+``` bash
+.Flask-server-backend
+├── .idea/
+│   ├── inspectionProfiles
+│   ├── .gitignore
+│   └── array-co.online.iml
+├── _pycache_/
+│   ├── Classification.cpython-310
+│   ├── FeatureExtract.cpython-310
+│   ├── main.cpython-310
+│   ├── Preprocessing.cpython-310
+│   └── ShadeClassification.cpython-310
+├── cropped_images
+├── images
+├── Output
+├── venv/
+│   ├── include
+│   ├── Lib
+│   ├── Scripts
+│   ├── share
+│   ├── .gitignore
+│   └── pyvenv
+├── Classification.py
+├── FeatureExtract.py
+├── main.py
+├── Mediapipe.py
+├── Preprocessing.py
+├── requirements.txt
+├── ShadeClassification.py
+└── svm_model.pkl
+```
+### Flutter-mobileapp-frontend Subdirectory
+``` bash
+.Flutter-mobileapp-frontend
+├── android/
+│   ├── app/
+│   │   ├── src
+│   │   ├── build
+│   │   └── google-services
+│   └── assets/
+│       ├── fonts
+│       ├── icons
+│       └── images
+└── lib/
+    ├── components/
+    │   ├── choice_dialog.dart
+    │   ├── confirmation_dialog.dart
+    │   ├── detail_list.dart
+    │   ├── error_alert.dart
+    │   ├── home_card.dart
+    │   ├── homescreen_list.dart
+    │   ├── large_button.dart
+    │   ├── login_dialog.dart
+    │   ├── medium button.dart
+    │   ├── navigation_bar.dart
+    │   ├── patient_textfield.dart
+    │   └── userinfo textfield.dart
+    ├── controllers/
+    │   ├── profile_controller.dart
+    │   └── registration_controller.dart
+    ├── models/
+    │   ├── note.dart
+    │   ├── patient.dart
+    │   ├── todo_item.dart
+    │   └── user_model.dart
+    ├── providers/
+    │   ├── note_api.dart
+    │   ├── patientApi.dart
+    │   ├── stable_patient_api.dart
+    │   └── todo_provider.dart
+    ├── repositories/
+    │   └── exceptions
+    ├── screens/
+    │   ├── add note form.dart
+    │   ├── add_patient_form.dart
+    │   ├── database note screen.dart
+    │   ├── database_screen.dart
+    │   ├── home screen.dart
+    │   ├── image_acquisition.dart
+    │   ├── login_screen.dart
+    │   ├── note_details.dart
+    │   ├── note screen.dart
+    │   ├── patient_details.dart
+    │   ├── registration_screen.dart
+    │   ├── settings_screen.dart
+    │   ├── splash_screen.dart
+    │   ├── stable_imageacquisition.dart
+    │   ├── test.dart
+    │   ├── update_note form.dart
+    │   ├── update_patient_form.dart
+    │   └── update_profile_screen.dart
+    └── widgets/
+        └── tasks.dart
 ```
 <br>
 <br>
@@ -119,10 +147,11 @@ Array Co. utilized the Python Flask framework to power the backend server and ha
 
 # Quick Guide and Start Up 📖
 1. Clone the repository to your local machine
-      <p> This flutter project can be opened using Android Studio or Visual Studio Code </p>
+     <p> This flutter project can be opened using Android Studio or Visual Studio Code </p>
 2. Since the uploaded project in GitHub is tailored for local host, use the local ip address
      <p> This can be found when runnig the python flask main.py file</p>
-3. Run the python flask file (main.py) and then run the flask flutter project
+3. Before running the python file, make sure to install the requirements.txt first.
+3. Run the python flask file (main.py) and then run the flask flutter project.
      <p> The front-end interface to navigate is flutter (mobile app) and the back-end processing will come from python </p>
 4. Explore and enjoy!
 
