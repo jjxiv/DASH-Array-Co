@@ -22,7 +22,7 @@ We are a group of researchers from **FEU Institute of Technology** under the cou
 Array Co. developed an android applcation which addresses the variability of composite restoration in dentistry and orthodontics by standardizing the crucial step of shade matching using the CNN-based MediaPipe Facial Landmark Detection for object detection and Support Vector Machines for classification. The developed application achieved a remarkable 90% accuracy as validated by dentists, which significantly exceeds the peer-reviewed estimated 35% accuracy of traditional visual shade matching. Also, DASH stands for Dental Application for Shade Matching.
 <br>
 <br>
-<br>
+
 
 # Tools and Frameworks👨‍💻
 ### Flutter Framework  <img src="https://cdn.worldvectorlogo.com/logos/flutter.svg"  width = "20"/>
@@ -32,7 +32,7 @@ Array Co. employed Flutter to build a cross-platform Android mobile application 
 Array Co. utilized the Python Flask framework to power the backend server and handle data processing for their composite shade matching application. Flask, being a lightweight and flexible framework, managed tasks such as data storage, retrieval, and API communication. This backend functionality seamlessly integrated with the Flutter front end, which was responsible for creating a visually appealing and consistent user interface on Android devices. The combined use of Flask and Flutter allowed Array Co. to leverage Python's backend capabilities and Flutter's cross-platform efficiency for a comprehensive application development approach.
 <br>
 <br>
-<br>
+
 
 # File Tree Structure
 ``` bash
@@ -114,7 +114,7 @@ Array Co. utilized the Python Flask framework to power the backend server and ha
 ```
 <br>
 <br>
-<br>
+
 
 
 # Quick Guide and Start Up 📖
