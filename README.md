@@ -149,7 +149,7 @@ Array Co. utilized the Python Flask framework to power the backend server and ha
 1. Clone the repository to your local machine
      <p> This flutter project can be opened using Android Studio or Visual Studio Code </p>
 2. Since the uploaded project in GitHub is tailored for local host, use the local ip address
-     <p> This can be found when runnig the python flask main.py file</p>
+     <p> This can be found when running the python flask main.py file</p>
 3. Before running the python file, make sure to install the requirements.txt first.
 3. Run the python flask file (main.py) and then run the flask flutter project.
      <p> The front-end interface to navigate is flutter (mobile app) and the back-end processing will come from python </p>
