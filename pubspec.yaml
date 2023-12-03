@@ -1,0 +1,62 @@
+name: dash
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  get:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  http: ^0.13.6
+  image_picker: ^0.8.4+3
+  provider: ^6.0.5
+  firebase_core: ^2.12.0
+  firebase_auth: ^4.6.0
+  path: ^1.8.0
+  cloud_firestore: ^4.7.1
+  camera: ^0.10.5+2
+  intl: ^0.17.0
+  email_validator: ^2.1.17
+  flutter_slidable: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/splash_image.png
+    - assets/images/homescreen_settings.png
+    - assets/images/homescreen_takephoto.png
+    - assets/images/homescreen_viewrecords.png
+    - assets/images/teeth.jpg
+    - assets/images/dashboard_bg.png
+    - assets/images/dashboard_camera.png
+    - assets/images/dashboard_settings.png
+    - assets/images/dashboard_notes.png
+    - assets/images/dashboard_records.png
+    - assets/images/profile_image.jpg
+    - assets/images/add_failed.png
+    - assets/images/add_success.png
+    - assets/images/instruction_1.png
+    - assets/images/instruction_2.png
+    - assets/images/instruction_3.png
+    - assets/images/instruction_4.png
+    - assets/images/instruction_5.png
+    - assets/images/logo.png
+    - assets/icons/mail.png
+    - assets/icons/padlock.png
+    - assets/icons/user.png
+    - assets/icons/contact.png
+    - assets/icons/notes.png
+    - assets/icons/tooth.png
